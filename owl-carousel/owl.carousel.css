@@ -40,6 +40,10 @@
 .owl-carousel .owl-item{
 	float: left;
 }
+.owl-carousel .owl-item img {
+	-webkit-backface-visibility: hidden;
+}
+
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{
 	cursor: pointer;
